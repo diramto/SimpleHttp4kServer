@@ -36,7 +36,7 @@ private object HomePage {
         <p>This is a minimal web app using http4k</p>
         <ul>
             Try these questions:
-            <li>What is your name?</li>
+            <li>What is your address?</li>
             <li>What is 2 + 2?</li>
         </ul>
         <input class="form-control" 

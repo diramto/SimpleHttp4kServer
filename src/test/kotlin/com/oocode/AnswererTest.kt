@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Test
 class AnswererTest {
     @Test
     fun `can answer name`() {
-        val contents = Answerer().answerFor("What is your name?")
-        assertThat(contents, equalTo("Paul"))
+        val contents = Answerer().answerFor("What is your address?")
+        assertThat(contents, equalTo("London"))
     }
 
     @Test
