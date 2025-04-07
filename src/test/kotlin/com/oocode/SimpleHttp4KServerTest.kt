@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Test
 class SimpleHttp4KServerTest {
     @Test
     fun canAnswerMyName() {
-        assertThat(app(Request(GET, "?q=What+is+your+name%3F")), equalTo(Response(OK).body("Paul")))
+        assertThat(app(Request(GET, "?q=What+is+your+address%3F")), equalTo(Response(OK).body("London")))
     }
 
     @Test
