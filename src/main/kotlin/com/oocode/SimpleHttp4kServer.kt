@@ -11,7 +11,7 @@ import org.http4k.server.asServer
 val app: HttpHandler = routes(
     "/" bind GET to {
         val question = it.query("q")
-        val responseBody = if (question?.lowercase()?.contains("What is your name?") == true) "P&P" else "Ask me something!"
+        val responseBody = if (question?.lowercase()?.contains("What is your name?") == true) "P & P" else "Ask me something!"
         Response(OK).body(responseBody)
     }
 )
