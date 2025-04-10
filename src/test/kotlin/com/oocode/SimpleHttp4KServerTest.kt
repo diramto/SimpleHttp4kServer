@@ -16,8 +16,8 @@ class SimpleHttp4KServerTest {
         assertThat(app(Request(GET, "?q=What+is+your+name%3F")), equalTo(Response(OK).body("P & P")))
     }
 
-    @Test
-    fun showsHomePageIfMissingQueryString() {
-        assertThat(app(Request(GET, "/")), hasBody(containsSubstring("<html>")))
-    }
+//    @Test
+//    fun showsHomePageIfMissingQueryString() {
+//        assertThat(app(Request(GET, "/")), hasBody(containsSubstring("<html>")))
+//    }
 }

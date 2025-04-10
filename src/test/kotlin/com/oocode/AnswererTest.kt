@@ -10,12 +10,12 @@ class AnswererTest {
 //        val contents = Answerer().answerFor("What is your name?")
 //        assertThat(contents, equalTo("London"))
 //    }
-
+//
 //    @Test
 //    fun `can pretend to do calculations`() {
 //        val contents = Answerer().answerFor("What is 2 + 2?")
 //        assertThat(contents, equalTo("4"))
-////    }
+//    }
 //
 //    @Test
 //    fun `does not know the answer in other cases`() {
